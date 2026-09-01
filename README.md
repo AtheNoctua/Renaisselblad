@@ -1,2 +1,4 @@
 # Renaisselblad
 Reviving classic Hasselblad systems through firmware research and community engineering
+这实际上是个AI项目，我自己没怎么看CODEX的输出，我只知道大概原理和固件里的字段都是什么意思
+这个项目原意是哈苏复兴，我希望哈苏这个品牌能在我们爱好者社区的共同努力下实现复兴
