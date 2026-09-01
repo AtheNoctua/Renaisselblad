@@ -1,4 +1,5 @@
 # Renaisselblad
 Reviving classic Hasselblad systems through firmware research and community engineering
 这实际上是个AI项目，我自己没怎么看CODEX的输出，我只知道大概原理和固件里的字段都是什么意思
-这个项目原意是哈苏复兴，我希望哈苏这个品牌能在我们爱好者社区的共同努力下实现复兴
+这个项目原意是哈苏复兴，我希望哈苏这个品牌能在我们爱好者社区的共同努力下实现复兴，现在仅实现全后背解锁，希望有能人志士把更快的AF和更多的测光模式做出来
+会上传一点原始的Codex分析文档和我用到的原版固件和解密后的固件，读者可以丢到自己的AI里操作一下，想写点什么就写什么
