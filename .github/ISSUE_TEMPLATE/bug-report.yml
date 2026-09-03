@@ -1,0 +1,57 @@
+name: Firmware or tool problem
+description: Report a reproducible firmware, parser, build, or documentation problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please record exact versions, hashes, observations, and the recovery result.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Firmware container or parser
+        - Patch or generated firmware
+        - Phocus update path
+        - Documentation
+        - Hardware behavior
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware and software combination
+      description: Body, back, viewfinder, lens/accessory, every firmware version, Phocus version, and operating system.
+    validations:
+      required: true
+  - type: textarea
+    id: hashes
+    attributes:
+      label: Input and output SHA-256
+      description: Include full 64-character values and file sizes.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Commands or physical steps in exact order.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+      description: Include exact display messages, logs, timing, and repeated-run count.
+    validations:
+      required: true
+  - type: textarea
+    id: recovery
+    attributes:
+      label: Recovery result
+      description: Base artifact, method, and restored behavior.
+    validations:
+      required: true

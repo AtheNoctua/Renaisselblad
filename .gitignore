@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local reverse-engineering workspaces and generated output
+/local/
+/work/
+/dist/
+/artifacts/
+/ghidra-projects/
+/firmware/original/
+/firmware/decrypted/
+/firmware/generated/
+*.bak
+*.tmp
+*.log
+*.hbf
+*.cim
+*.plain.hbf
+*.decoded.cim
+*.raw.bin
+
+# Ghidra project state
+*.gpr
+*.rep/

@@ -1,0 +1,52 @@
+name: Research finding
+description: Submit a firmware format, address, function, protocol, or cross-version finding.
+title: "[Research]: "
+labels:
+  - research
+body:
+  - type: dropdown
+    id: status
+    attributes:
+      label: Evidence status
+      options:
+        - static-verified
+        - hardware-verified
+        - experimental
+        - superseded
+        - withdrawn
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Finding and scope
+      description: State the finding and the exact models/versions to which it applies.
+    validations:
+      required: true
+  - type: textarea
+    id: samples
+    attributes:
+      label: Samples and SHA-256
+      description: List filenames, versions, sizes, provenance records, and full hashes.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Addresses, bytes, fields, xrefs, functions, scripts, logs, or hardware observations.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Tool versions and exact commands or test steps.
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Confirmed facts, inference, and open questions
+    validations:
+      required: true
